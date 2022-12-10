@@ -68,7 +68,7 @@ def dequeue(self):
         return value
 ```
 
-The code for dequeing appears to be a little more complicated than, but not really as we take a closer look. The IF statement simply is used as a means to check if the list used for the queue is empty, because you obviously cannot remove something from a queue that is empty. Enqueuing does not need an if statement because it does not matter, you can enqueue whether the queue is empty or not.
+The code for dequeing appears to be a little more complicated than enqueing, but not really as we take a closer look. The IF statement simply is used as a means to check if the list used for the queue is empty, because you obviously cannot remove something from a queue that is empty. Enqueuing does not need an if statement because it does not matter, you can enqueue whether the queue is empty or not.
 
 Much like how lines to the movie theater work in real life, after the person is finished purchasing their tickets, they are then dequed from the list and the next person is next.
 
