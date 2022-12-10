@@ -4,7 +4,11 @@
 A link list is a data structure that is utilized to organize data. Unlike arrays, values in a linked list are not guranted to be next to eachother. There are pointers that will direct the code to the location of the next value. In this case, a location of a value is refered to as a node.
 
 ## Why Linked List Are Used
-Some may be asking why we don't just use a regular array, wouldn't it be more simplier that way? Why yes, it may be the more simple solution, but it will not always be the most efficient. Linked list have a big-O-notation of o(1) when it comes to insertions and deletions (meaning the size of the linked list will not matter towards performance), while arrays will have a big-O-notation of o(n) (which *will* be dependent on the array size).
+Some may be asking why we don't just use a regular array, wouldn't it be more simplier that way? Why yes, it may be the more simple solution, but it will not always be the most efficient. Linked list have a big-O-notation of o(1) when it comes to insertions and deletions (meaning the size of the linked list will not matter towards performance), while arrays will have a big-O-notation of o(n) (which *will* be dependent on the array size). When thinking whether or not to use an array or a linked list, consider the following:
+* The size (or expected size) of the data that you are gonna utilize for the program.
+* The overall scope of the program. 
+* The complexity of the task that involves the data.
+
 ![big_o_notation](images/big_o_notation_graph.png)
 [Source](https://www.bigocheatsheet.com)
 
