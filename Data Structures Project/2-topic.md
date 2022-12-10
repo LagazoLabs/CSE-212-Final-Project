@@ -34,7 +34,8 @@ As stated before, each element, or each **node** will be *linked* together using
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
 ![inserting_into_head](images/topic2-3.jpg)
-In this example, we are using a doubly-linked list.
+
+Using the image above, we can see how new values are added in to the head of the linked list.
 
 ```Python
     def insert_head(self, value):
@@ -52,8 +53,26 @@ In this example, we are using a doubly-linked list.
             self.head = new_node # 4. Set the head as the new node. 
 ```
 
-![insert_into_middle](https://byui-cse.github.io/cse212-course/lesson07/linked_list_insert_middle.jpeg)
-In order to insert into the middle, the nodes will need to be rearranged. Such as inserting 5 into 1,2,3,4,6,8,10, inserting 5 after 4 will require "5" to be programmed as the new previous of 6, and 4 the new previous of 4, and 5 the new next of 4. 
+![insert_into_middle](images/topic2-4.jpg)
+
+Using the image above, we can see how new values are added in the middle of linked list.
+
+```Python
+    def insert_middle(self, value, new_value):
+        curr = self.head
+        while curr is not None:
+            if curr.data == value:
+                if curr == self.tail:
+                    self.insert_tail(new_value)
+                else:
+                    new_node = LinkedList.Node(new_value) # 1. New node being created,
+                    new_node.prev = curr # 2. The previous of the new node will be set as the current node. 
+                    new_node.next = curr.next 
+                    curr.next.prev = new_node # 3. The previous node, which is next after the current is the new node.
+                    curr.next = new_node # 4. The next iem after the current node is now the new node. 
+                return
+            curr = curr.next
+```
 
 ## Removing Items from a Linked List
 There are various ways to remove items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
