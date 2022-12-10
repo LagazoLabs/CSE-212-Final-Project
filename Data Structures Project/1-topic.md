@@ -39,7 +39,7 @@ class Queue:
 ```
 
 The code utilizes a class and methods to implement the functionality of a queue. As said previously, the **FIFO** rule states how the first item in is the first one out, and the next one in the front is the next one out. To get a ticket to a movie in a traditional sense, you would need to wait in a line.
-[the_process_of_dequeing](images/topic1-0.png)
+![the_process_of_dequeing](images/topic1-0.png)
 
 ## Enqueuing (Adding Items)
 
