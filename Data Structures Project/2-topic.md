@@ -11,12 +11,13 @@ When thinking whether or not to use an array or a linked list, consider the foll
 
 As with [queues](1-topic.md), linked list are used are often utilized in certain scenarions instead of arrays. Linked list have a big-O-notation of o(1) when it comes to insertions and deletions (meaning the size of the linked list will not matter towards performance), while arrays will have a big-O-notation of o(n) (which *will* be dependent on the array size).
 
+![big_o_notation](images/big_o_notation_graph.png)
+
+[Source](https://www.bigocheatsheet.com)
+
 In addition, the overall scope of the program matters as well if you are trying to decide between linked list and arrays. If the program is just one file with not that mcuh code, you're probably fine without it. However, if the program has many different files all with many lines of code, it might be best to consider a linked list to help with efficiency. 
 
 Lastly, it can also depend on what the program is doing to the data. Is it printing it all out? Is it modifying it? Is it performing math? Are you trying to find a specific value? Are you trying to sort the data in a specific way? Consider the complexity at the task at hand before implementing a linked list.
-
-![big_o_notation](images/big_o_notation_graph.png)
-[Source](https://www.bigocheatsheet.com)
 
 ## Creating Linked List
 As stated before, each element, or each **node** will be *linked* together using **pointers.** These pointers will connect and point a program from one node to the next. The first node is often refered to as the head, while the end is the tail.
