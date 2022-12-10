@@ -8,6 +8,7 @@ Many may be losing their marbles right now wondering why we can't just use regul
 
 Let's futher emphasize the importance and significance of the performance difference between arrays and queues. For large collections of data that need be processed in a orderly way. Let's take the following graph for example
 ![big_o_notation](images/big_o_notation_graph.png)
+
 [Source](https://www.bigocheatsheet.com)
 
 Queues are far more efficient than arrays, as the big-O-notation for adding/removing items from arrays is an averge of *o(n)*. However, on the other hand, queues have a big-O-notation of *o(1)*, which, when looking at the graph, is *a lot* quicker. In fact, with a big-O-notation of *o(1)* the size of the queue does not factor into run time anymore! With *o(n)* size will matter because n represents the size, the larger the collection of data and how your program is coded, it can become drastically slower.
