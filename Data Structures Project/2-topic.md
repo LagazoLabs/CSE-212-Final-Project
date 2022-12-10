@@ -1,7 +1,15 @@
 # Linked List
 
 ## Introduction
-A link list is a data structure that is utilized to organize data. Unlike arrays, values in a linked list are not guranted to be next to eachother. There are **pointers** that will direct the code to the location of the next value. In this case, a location of a value is refered to as a **node**.
+A link list is a data structure that is utilized to organize data. Unlike arrays, values in a linked list are not guranted to be next to eachother. There are **pointers** that will direct the code to the location of the next value. In this case, a location of a value is refered to as a **node**, furthermore, the **node** that is the very first is known as the **head**, while the **node** at the end is refered to as the **tail** (kinda like a snake).
+
+There are two different types of Linked List that we will cover in this section. The first being into a standard linked list, one where the **pointers** will go from the **head** to the **tail**, but unable to go back.
+
+![standard-linked-list](images/topic2-1.jpeg)
+
+On the other hand, there are Doubly-Linked List, where, unlike standard linked list, Doubly-Linekd List are able to point in both directions, being able to move forward or backwards through it. 
+
+![standard-linked-list](images/topic2-2.jpeg)
 
 ## Why Linked List Are Used
 When thinking whether or not to use an array or a linked list, consider the following:
