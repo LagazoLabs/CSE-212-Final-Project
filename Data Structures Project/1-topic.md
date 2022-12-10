@@ -72,7 +72,7 @@ The code for dequeing appears to be a little more complicated than, but not real
 
 Much like how lines to the movie theater work in real life, after the person is finished purchasing their tickets, they are then dequed from the list and the next person is next.
 
-[the_process_of_dequeing](images/topic1-2.png)
+![the_process_of_dequeing](images/topic1-2.png)
 
 ## Practice
 
