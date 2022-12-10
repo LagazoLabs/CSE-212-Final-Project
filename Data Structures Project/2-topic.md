@@ -9,7 +9,7 @@ There are two different types of Linked List that we will cover in this section.
 
 On the other hand, there are doubly-linked List, where, unlike standard linked list, doubly-linekd List are able to point in both directions, being able to move forward or backwards through it. 
 
-![standard-linked-list](images/topic2-2.jpeg)
+![doubly-linked list](images/topic2-2.jpeg)
 
 ## Why Linked List Are Used
 When thinking whether or not to use an array or a linked list, consider the following:
@@ -33,8 +33,24 @@ As stated before, each element, or each **node** will be *linked* together using
 ## Adding Items to a Linked List
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
-![inserting_into_head](https://byui-cse.github.io/cse212-course/lesson07/linked_list_insert_head.jpeg) 
-In order insert into the head, we will need to set the current head as the second next value.
+![inserting_into_head](images/topic3-3.jpeg)
+In this example, we are using a doubly-linked list.
+
+```Python
+    def insert_head(self, value):
+        new_node = LinkedList.Node(value) # 1. Creates a new node based off the inputed parameter.   
+        
+        # Checks if the list is empty.
+        if self.head is None:
+            # If the list is empty, it will set both the head and tail as the new node.
+            self.head = new_node 
+            self.tail = new_node
+        else:
+            # Otherwise, it will...
+            new_node.next = self.head # 2. Set the ncurrent head the next value for the new node.
+            self.head.prev = new_node # 3. Set the previous value of the current head as the new node.
+            self.head = new_node # 4. Set the head as the new node. 
+```
 
 ![insert_into_middle](https://byui-cse.github.io/cse212-course/lesson07/linked_list_insert_middle.jpeg)
 In order to insert into the middle, the nodes will need to be rearranged. Such as inserting 5 into 1,2,3,4,6,8,10, inserting 5 after 4 will require "5" to be programmed as the new previous of 6, and 4 the new previous of 4, and 5 the new next of 4. 
