@@ -74,6 +74,16 @@ Much like how lines to the movie theater work in real life, after the person is 
 
 ![the_process_of_dequeing](images/topic1-2.png)
 
+## Vocabulary/Key Words
+
+Word     | Definition
+-------- | --------
+FIFO     | The order in which queues are processed through. The oldest is always the next one out, no exceptions.
+Enqueuing | The process where an item is added to the back of the queue.
+Dequeing | The process where an item is removed from the front of the queue.
+o(1)    | The big-O-notation that represents the efficiency of a program, which is constant. Size does not impact efficiency.
+o(n)    | The big-O-notation that represents the efficiency of a program, which is linear. Size does impact efficiency.
+
 ## Practice
 
 Now that we have covered the basics of queues, how they work, and how to implement them, we should go over some practice to make you understand the fundamentals.
@@ -84,6 +94,7 @@ Someone created a prototype for an online ticket purchasing program. To ensure i
 Problem: [topic1-problem1](code/topic1problem1.py)
 
 Please download the following file, if you cannot figure out the solution within five minutes, please view the solution. 
+
 Solution: [topic1-solution1](code/topic1solution1.py)
 
 ### 2. Dictionary Queue 
