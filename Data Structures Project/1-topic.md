@@ -53,7 +53,7 @@ Enqueing with this type of queue is rather simple and just requires a simple app
 
 Newly enqued items are sent to the back of list, like how any ordinary queue works. If you wanted to get tickets to a movie in the traditonal way, you may need to wait in a line in order to even purchase them. As soon as someone enters the line, that is the process of being enqued. It is important to note that in queues, you start in the back, there is no "cutting." Once again, the **FIFO rule** makes it clear that you can only enter in the *back*.
 
-[the_process_of_dequeing](images/topic1-1.png)
+![the_process_of_dequeing](images/topic1-1.png)
 
 ## Dequeing (Removing Items)
 
