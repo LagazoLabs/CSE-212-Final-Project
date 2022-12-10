@@ -18,7 +18,7 @@ They are faster than arrays, as arrays when inserting, deleting, or accessing ha
 
 [Source](https://www.bigocheatsheet.com)
 
-So what gives? If it is not the most efficient method of storing data, why bother? Well, it is trust it is important to consider efficiency, you also have to keep in the mind the situation, mostly in scenarios where you may need to search for a specici value in a large quantity of data. As explained in **Introduction**, a Binary Search Tree with have a **Parent Node**, which will sort values smaller to the **Child Note** node and larger value to the right **Child Node**. Effectively, the work load will thus be cut in half, as the program will only need to search one side, not the other, as opposed to arrays which has to search from start to end.
+So what gives? If it is not the most efficient method of storing data, why bother? Well, it is trust it is important to consider efficiency, you also have to keep in the mind the situation, mostly in scenarios where you may need to search for a specific value in a large quantity of data. As explained in **Introduction**, a Binary Search Tree with have a **Parent Node**, which will sort values smaller to the **Child Note** node and larger value to the right **Child Node**. Effectively, the work load will thus be cut in half, as the program will only need to search one side, not the other, as opposed to arrays which has to search from start to end.
 
 ## Creating a Tree
 ## Adding Items to a Tree
