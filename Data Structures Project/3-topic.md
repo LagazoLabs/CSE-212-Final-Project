@@ -10,6 +10,15 @@ As you can see, the **Child** is linked to two **Parents**, and where as the **P
 ![bst-example](images/topic3-2.jpeg)
 
 ## Why Trees Are Used
+As discussed in our section about [Queues](1-topic.md) and [Linked Lists](2-topic.md), it all comes down to efficiency and performance. However, in terms of efficiency Binary Search Trees are rather unique in this case, they are faster than arrays. Arrays when inserting, deleting, or accessing have a big-O-notation of o(n), which is where performance is affected by the size of data. However, Binary Search Trees when they are inserting, deleting, or accessing have a big-O-notation of o(log(n)), which is also affected by the size of data, yet faster. Shockingly, these are not as fast as [Queues](1-topic.md) or [Linked List](2-topic.md), as when they are deleting or inserting, they have a big-O-notation of o(1), which is where the size of the data does not even matter. 
+
+![big_o_notation](images/big_o_notation_graph.png)
+
+[Source](https://www.bigocheatsheet.com)
+
+So what gives? If it is not the most efficient method of storing data, why bother? 
+(to be continued)
+
 ## Creating a Tree
 ## Adding Items to a Tree
 ## Removing Items from a Tree
