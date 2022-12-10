@@ -33,7 +33,7 @@ As stated before, each element, or each **node** will be *linked* together using
 ## Adding Items to a Linked List
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
-![inserting_into_head](images/topic3-3.jpeg)
+![inserting_into_head](images/topic2-3.jpg)
 In this example, we are using a doubly-linked list.
 
 ```Python
