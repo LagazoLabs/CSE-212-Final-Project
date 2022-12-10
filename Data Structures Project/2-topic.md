@@ -25,8 +25,6 @@ As stated before, each element, or each **node** will be *linked* together using
 ## Adding Items to a Linked List
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
-**NOTE: THE IMAGES ARE ONLY PLACEHOLDERS (UNLESS WE ARE ALLOWED TO USE THEM)**
-
 ![inserting_into_head](https://byui-cse.github.io/cse212-course/lesson07/linked_list_insert_head.jpeg) 
 In order insert into the head, we will need to set the current head as the second next value.
 
@@ -36,7 +34,6 @@ In order to insert into the middle, the nodes will need to be rearranged. Such a
 ## Removing Items from a Linked List
 There are various ways to remove items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
-**NOTE: THE IMAGES ARE ONLY PLACEHOLDERS (UNLESS WE ARE ALLOWED TO USE THEM)**
 ![removing_from_head](https://byui-cse.github.io/cse212-course/lesson07/linked_list_remove_head.jpeg)
 In order insert into the head, we will need to set the current head as none, while the second node becomes the new node.
 
