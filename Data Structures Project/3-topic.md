@@ -1,7 +1,7 @@
 # Binary Search Trees
 
 ## Introduction
-Binary Search Trees are a complex structure of data. A Binary Search Tree, much like the name implies, structures data into a *tree* like format. Binary Search Trees sort data based off their value. An easy way to have a better understanding of it is if you compare it to family trees in a wya.
+Binary Search Trees are a complex structure of data. A Binary Search Tree, much like the name implies, structures data into a *tree* like format. Binary Search Trees sort data based off their value. An easy way to have a better understanding of it is if you compare it to family trees.
 
 ![family-tree-example](images/FamilyTree.png)
 
