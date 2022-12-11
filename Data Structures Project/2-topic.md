@@ -43,7 +43,7 @@ class LinkedList:
         self.tail = None
 ```
 
-The LinkedList class will initialize the data, next, and prev. The variables **next** and **prev** are essential in this because they will be representing the **pointers** for the values.
+The class will initialize the data, next, and prev. The variables **next** and **prev** are essential in this because they will be representing the **pointers** for the values.
 
 ## Adding Items to a Linked List
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
