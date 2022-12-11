@@ -141,28 +141,23 @@ Much like in "Adding Items to a Linked List" where inserting into the tail is ju
 
 Likewise, removing from the middile in a linked list is not as simmilar to when you are inserting into a linked list.
 
-![removing_from_middle](https://byui-cse.github.io/cse212-course/lesson07/linked_list_remove_middle.jpeg)
+![removing_from_middle](images/topic2-6.jpeg)
 
 ```Python
-    def remove(self, value):
+    def remove_middle(self, value):
         curr = self.head
         while curr is not None:
             if curr.data == value:
-
                 if curr == self.head:
-                    self.remove_head()
-
+                    self.remove_head() # Removes the head if the value is found at the head.
                 elif curr == self.tail:
-                    self.remove_tail()
-
+                    self.remove_tail() # Removes the tail if the value is found at the tail.
                 else:
-                    curr.next.prev = curr.prev
-                    curr.prev.next = curr.next
-                
+                    curr.next.prev = curr.prev # 1
+                    curr.prev.next = curr.next # 2    
                 return
-
             else:
-                curr = curr.next
+                curr = curr.next # Will move the current to the next value in the list if it does not find the value that is going to be removed. 
         
         return
 ```
