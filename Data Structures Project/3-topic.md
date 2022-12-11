@@ -4,7 +4,7 @@
 * [Introduction](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#introduction)
 * [Why BSTs](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#why-trees-are-used)
 * [Creating BSTs](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#creating-a-tree)
-* [Inserting](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#enqueuing-adding-items)
+* [Inserting](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#adding-items-to-a-tree)
 * [Searching](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#finding-items-in-a-tree)
 * [Vocabulary](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#vocabulary)
 
