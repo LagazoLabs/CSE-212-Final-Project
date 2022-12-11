@@ -1,5 +1,7 @@
 # Queues
 
+* [Welcome](0-welcome.md)
+
 ## Introduction
 You may not realize it, but you often see queues in your day to day life. That long grocery store checkout line that you waited in? That's a queue! Stuck in the DMV for several hours because of the monotonous proccess that each and every person has to go through? Queues exist in Python as well and can be utilized in a variety of situations.
 
