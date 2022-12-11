@@ -1,6 +1,13 @@
 # Queues
 
 * [Welcome](0-welcome.md)
+* [Introduction](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#introduction)
+* [Why Queues](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#why-queues-are-used)
+* [Creating Queues](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#creating-queues)
+* [Enqueing](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#enqueuing-adding-items)
+* [Dequeing](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#dequeing-removing-items)
+* [Vocabulary](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#vocabularykey-words)
+* [Practice](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#practice)
 
 ## Introduction
 You may not realize it, but you often see queues in your day to day life. That long grocery store checkout line that you waited in? That's a queue! Stuck in the DMV for several hours because of the monotonous proccess that each and every person has to go through? Queues exist in Python as well and can be utilized in a variety of situations.
