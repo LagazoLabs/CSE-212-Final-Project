@@ -1,5 +1,13 @@
 # Linked List
 
+* [Welcome](0-welcome.md)
+* [Introduction](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#introduction)
+* [Why Linked List](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#why-linked-list-are-used)
+* [Creating Linked List](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#creating-linked-list)
+* [Inserting](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#adding-items-to-a-linked-list)
+* [Deleting](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#removing-items-from-a-linked-list)
+* [Vocabulary](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/2-topic.md#vocabulary)
+
 ## Introduction
 A link list is a data structure that is utilized to organize data. Unlike arrays, values in a linked list are not guranted to be next to eachother. There are **pointers** that will direct the code to the location of the next value. In this case, a location of a value is refered to as a **node**, furthermore, the **node** that is the very first is known as the **head**, while the **node** at the end is refered to as the **tail** (kinda like a snake).
 
