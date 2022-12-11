@@ -101,9 +101,9 @@ Using the image above, we can see how new values are added in the middle of link
                 else:
                     new_node = LinkedList.Node(new_value) # 1. New node being created,
                     new_node.prev = curr # 2. The previous of the new node will be set as the current node. 
-                    new_node.next = curr.next # Sets the next value of the new node as the next value of the current node.
-                    curr.next.prev = new_node # 3. The previous node, which is next after the current is the new node.
-                    curr.next = new_node # 4. The next iem after the current node is now the new node. 
+                    new_node.next = curr.next # 3. Sets the next value of the new node as the next value of the current node.
+                    curr.next.prev = new_node # 4. The previous node, which is next after the current is the new node.
+                    curr.next = new_node # 5. The next iem after the current node is now the new node. 
                 return
             curr = curr.next
 ```
