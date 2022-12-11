@@ -174,18 +174,3 @@ Linked List | A linked list that has pointers in one direction, can be iterated 
 Doubly Linked List |A linked list that has pointers in both directions, can be iterated through both directions. | 
 o(n) | A notation that represents the time-complexity of a program, where the size of data affects performance, representing linear time. | 
 o(1) | A notation that represents the time-complexity of a program, where the size of data does not performance, representing constant time. | 
-
-## Practice
-
-```{r letter-a, echo=FALSE}
-question("What number is the letter A in the English alphabet?",
-  answer("8"),
-  answer("14"),
-  answer("1", correct = TRUE),
-  answer("23")
-)
-```
-
-
-
-
