@@ -113,16 +113,30 @@ There are various ways to remove items to a linked list, and all it depends is i
 
 In order insert into the head, we will need to set the current head as none, while the second node becomes the new node...
 
-![removing_from_head](images/topic2-5.jpg)
+![removing_from_head](images/topic2-5.jpeg)
 
 ```Python
     def remove_head(self):
-        if self.head == self.tail:
+        if self.head == self.tail: # Checks if the list has only one value in it, and will set both head and tail as None.
             self.head = None
             self.tail = None
         elif self.head is not None:
-            self.head.next.prev = None
-            self.head = self.head.next
+            self.head.next.prev = None # 1. Set's the second node's previous node as nothing.
+            self.head = self.head.next # 2. Set's the head to become the next node after the current head. 
+```
+
+Much like in "Adding Items to a Linked List" where inserting into the tail is just the opposite of inserting into the head, removing from the tail is also just the opposite of removing from the head.
+
+```Python
+    def remove_tail(self):
+        
+        if self.head == self.tail:
+            self.head = None
+            self.tail = None
+
+        elif self.tail is not None:
+            self.tail.prev.next = None  
+            self.tail = self.tail.prev  
 ```
 
 ![removing_from_middle](https://byui-cse.github.io/cse212-course/lesson07/linked_list_remove_middle.jpeg)
