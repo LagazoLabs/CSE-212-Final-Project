@@ -23,7 +23,7 @@ So what gives? If it is not the most efficient method of storing data, why bothe
 ## Creating a Tree
 Trees are implemented used a class. 
 
-```
+```Python
 class BinarySearchTree:
        
     def __init__(self, data):
@@ -55,7 +55,7 @@ class BinarySearchTree:
 ## Finding Items in a Tree
 
 ```Python
-def find_node(self, value):
+    def find_node(self, value):
             
         if self.data == value:
             return True
