@@ -28,8 +28,8 @@ class BinarySearchTree:
        
     def __init__(self, data):
         self.data = data
-        self.Left_child = None
-        self.Right_child = None
+        self.left_child = None
+        self.right_child = None
 ```
 
 ## Adding Items to a Tree
@@ -40,35 +40,42 @@ class BinarySearchTree:
             return 
 
         if data < self.data:
-            if self.Left_child:
-                self.Left_child.add_node(data)
+            if self.left_child:
+                self.left_child.add_node(data)
             else:
-                self.Left_child = BinarySearchTree(data)
+                self.left_child = BinarySearchTree(data)
              
         else:
-            if self.Right_child:
-                self.Right_child.add_node(data)
+            if self.right_child:
+                self.right_child.add_node(data)
             else:
-                self.Right_child = BinarySearchTree(data)
+                self.right_child = BinarySearchTree(data)
 ```
 
 ## Finding Items in a Tree
 
+As stated before, searching for items in a Binary Search Tree are much more efficient than regular old arrays as it cuts the workload in half by only checking one side. 
+
 ```Python
     def find_node(self, value):
-            
+          
+        # First it will check if the parent node is the value we are looking for.
         if self.data == value:
+            # If it is, it will return True.
             return True
         
+        # If not, it will see if the value is smaller than the parent,
+        # and if it is, it will only check the left side.
         if value < self.data:
-            if self.Left_child:
-                return self.Left_child.find_node(value)
+            if self.left_child:
+                return self.left_child.find_node(value)
             else:
                 return False
-        
+        # If not, it will see if the value is larger than the parent,
+        # and if it is, it will only check the right side.
         if value > self.data:
-            if self.Right_child:
-                return self.Right_child.find_node(value)
+            if self.right_child:
+                return self.right_child.find_node(value)
             else:
                 return False
 ```
