@@ -21,6 +21,56 @@ They are faster than arrays, as arrays when inserting, deleting, or accessing ha
 So what gives? If it is not the most efficient method of storing data, why bother? Well, it is trust it is important to consider efficiency, you also have to keep in the mind the situation, mostly in scenarios where you may need to search for a specific value in a large quantity of data. As explained in **Introduction**, a Binary Search Tree with have a **Parent Node**, which will sort values smaller to the **Child Note** node and larger value to the right **Child Node**. Effectively, the work load will thus be cut in half, as the program will only need to search one side, not the other, as opposed to arrays which has to search from start to end.
 
 ## Creating a Tree
+Trees are implemented used a class. 
+
+```
+class BinarySearchTree:
+       
+    def __init__(self, data):
+        self.data = data
+        self.Left_child = None
+        self.Right_child = None
+```
+
 ## Adding Items to a Tree
-## Removing Items from a Tree
+
+```Python
+    def add_node(self, data):
+        if data == self.data:
+            return 
+
+        if data < self.data:
+            if self.Left_child:
+                self.Left_child.add_node(data)
+            else:
+                self.Left_child = BinarySearchTree(data)
+             
+        else:
+            if self.Right_child:
+                self.Right_child.add_node(data)
+            else:
+                self.Right_child = BinarySearchTree(data)
+```
+
+## Finding Items in a Tree
+
+```Python
+def find_node(self, value):
+            
+        if self.data == value:
+            return True
+        
+        if value < self.data:
+            if self.Left_child:
+                return self.Left_child.find_node(value)
+            else:
+                return False
+        
+        if value > self.data:
+            if self.Right_child:
+                return self.Right_child.find_node(value)
+            else:
+                return False
+```
+
 ## Practice
