@@ -30,6 +30,21 @@ Lastly, it can also depend on what the program is doing to the data. Is it print
 ## Creating Linked List
 As stated before, each element, or each **node** will be *linked* together using **pointers.** These pointers will connect and point a program from one node to the next. The first node is often refered to as the head, while the end is the tail.
 
+```Python
+class LinkedList:
+    class Node:
+        def __init__(self, data):
+            self.data = data
+            self.next = None
+            self.prev = None
+
+    def __init__(self):
+        self.head = None
+        self.tail = None
+```
+
+The LinkedList class will initialize the data, next, and prev. The variables **next** and **prev** are essential in this because they will be representing the **pointers** for the values.
+
 ## Adding Items to a Linked List
 There are various ways to add items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
