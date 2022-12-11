@@ -34,17 +34,23 @@ class BinarySearchTree:
 
 ## Adding Items to a Tree
 
+As stated before, we add items to a tree depending if it is smaller or larger than the **parent node**.
+
 ```Python
     def add_node(self, data):
+    
+       # Will return because it is a duplicate of the parent.
         if data == self.data:
             return 
-
+       
+       # If the value is smaller than the parent node, it will appened it to the left side.
         if data < self.data:
             if self.left_child:
                 self.left_child.add_node(data)
             else:
                 self.left_child = BinarySearchTree(data)
-             
+        
+        # Otherwise, it will be at the right side. 
         else:
             if self.right_child:
                 self.right_child.add_node(data)
