@@ -1,5 +1,14 @@
 # Binary Search Trees
 
+* [Welcome](0-welcome.md)
+* [Introduction](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#introduction)
+* [Why BSTs](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#why-trees-are-used)
+* [Creating BSTs](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#creating-a-tree)
+* [Inserting](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/1-topic.md#enqueuing-adding-items)
+* [Searching](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#finding-items-in-a-tree)
+* [Vocabulary](https://github.com/LagazoLabs/CSE-212-Final-Project/blob/main/Data%20Structures%20Project/3-topic.md#vocabulary)
+
+
 ## Introduction
 Binary Search Trees are a complex structure of data. A Binary Search Tree, much like the name implies, structures data into a *tree* like format. Binary Search Trees sort data based off their value. An easy way to have a better understanding of it is if you compare it to family trees.
 
