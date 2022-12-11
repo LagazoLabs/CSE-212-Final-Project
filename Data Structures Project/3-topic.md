@@ -86,4 +86,10 @@ As stated before, searching for items in a Binary Search Tree are much more effi
                 return False
 ```
 
-## Practice
+## Vocabulary 
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
