@@ -111,8 +111,19 @@ Using the image above, we can see how new values are added in the middle of link
 ## Removing Items from a Linked List
 There are various ways to remove items to a linked list, and all it depends is if you are removing from the head/tail, or the middle.
 
-![removing_from_head](https://byui-cse.github.io/cse212-course/lesson07/linked_list_remove_head.jpeg)
-In order insert into the head, we will need to set the current head as none, while the second node becomes the new node.
+In order insert into the head, we will need to set the current head as none, while the second node becomes the new node...
+
+![removing_from_head](images/topic2-5.jpg)
+
+```Python
+    def remove_head(self):
+        if self.head == self.tail:
+            self.head = None
+            self.tail = None
+        elif self.head is not None:
+            self.head.next.prev = None
+            self.head = self.head.next
+```
 
 ![removing_from_middle](https://byui-cse.github.io/cse212-course/lesson07/linked_list_remove_middle.jpeg)
 
