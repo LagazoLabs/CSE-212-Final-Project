@@ -53,6 +53,22 @@ Using the image above, we can see how new values are added in to the head of the
             self.head = new_node # 4. Set the head as the new node. 
 ```
 
+Inserting to the tail, is the opposite of inserting to the head.
+
+```Python
+    def insert_tail(self, value):
+        new_node = LinkedList.Node(value)  
+        
+        if self.tail is None:
+            self.head = new_node
+            self.tail = new_node
+
+        else:
+            new_node.prev = self.tail 
+            self.tail.next = new_node 
+            self.tail = new_node
+```
+
 ![insert_into_middle](images/topic2-4.jpg)
 
 Using the image above, we can see how new values are added in the middle of linked list.
@@ -60,14 +76,17 @@ Using the image above, we can see how new values are added in the middle of link
 ```Python
     def insert_middle(self, value, new_value):
         curr = self.head
+        
+        # This will loop through the linked list, from head to tail.
         while curr is not None:
             if curr.data == value:
+                # If we reach the end without finding 'value', it will simply set the new value as the tail.
                 if curr == self.tail:
                     self.insert_tail(new_value)
                 else:
                     new_node = LinkedList.Node(new_value) # 1. New node being created,
                     new_node.prev = curr # 2. The previous of the new node will be set as the current node. 
-                    new_node.next = curr.next 
+                    new_node.next = curr.next # Sets the next value of the new node as the next value of the current node.
                     curr.next.prev = new_node # 3. The previous node, which is next after the current is the new node.
                     curr.next = new_node # 4. The next iem after the current node is now the new node. 
                 return
