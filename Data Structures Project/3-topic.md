@@ -88,8 +88,10 @@ As stated before, searching for items in a Binary Search Tree are much more effi
 
 ## Vocabulary 
 
-| Left columns  | Right columns |
+| Words  | Definition |
 | ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+| Parent Node      | The root of the tree, which determines how all data is organized.     |
+| Child Note/Sub Tree      | The values that are connected to the Parent Node, and are sorted by it.    |
+| o(n)      | The big-O-notation that represents the time complexity of a program, which is constant, not affected by data size.   |
+| o(1)      | The big-O-notation that represents the time complexity of a program, which is linear, affected by data size, not efficient.  |
+| o(log (n))      | The big-O-notation that represents the time complexity of a program, which is logarithm, affected by data size, but efficient.    |
