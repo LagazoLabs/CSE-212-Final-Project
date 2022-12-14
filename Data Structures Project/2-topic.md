@@ -181,4 +181,4 @@ Pointer | A variable that will point to the next or previous item in a linked li
 Linked List | A linked list that has pointers in one direction, can be iterated in one direction. | 
 Doubly Linked List | A linked list that has pointers in both directions, can be iterated through both directions. | 
 o(n) | A notation that represents the time-complexity of a program, where the size of data affects performance, representing linear time. | 
-o(1) | A notation that represents the time-complexity of a program, where the size of data does not performance, representing constant time. | 
+o(1) | A notation that represents the time-complexity of a program, where the size of data does not affect performance, representing constant time. | 
