@@ -103,4 +103,4 @@ As stated before, searching for items in a Binary Search Tree are much more effi
 | Child Note/Sub Tree      | The values that are connected to the Parent Node, and are sorted by it. |
 | o(n)      |  The big-O-notation that represents the time complexity of a program, which is linear, affected by data size. |
 | o(1)      |  The big-O-notation that represents the time complexity of a program, which is constant, not affected by data size. |
-| o(log (n))      | The big-O-notation that represents the time complexity of a program, which is logarithm, affected by data size, but more efficient. |
+| o(log (n))      | The big-O-notation that represents the time complexity of a program, which is logarithmic, affected by data size, but more efficient. |
